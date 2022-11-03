@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/css": "^11.10.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "is-hotkey": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "slate": "^0.82.1",
+    "slate-history": "^0.66.0",
+    "slate-react": "^0.82.1",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "2.0.1",
+    "vite": "3.0.9"
   },
   "scripts": {
     "start": "react-scripts start",
